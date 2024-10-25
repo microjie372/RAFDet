@@ -30,9 +30,9 @@ python -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos tools/cfgs/datas
 
 ### DAIR-V2X Dataset
 * Please download the official [DAIR-V2X 3D object detection dataset](https://thudair.baai.ac.cn/roadtest) 
-* Please first Install pypcd
+* Please first Install pypcd as below:
 
-** git clone https://github.com/klintan/pypcd.git
+git clone https://github.com/klintan/pypcd.git
 
 cd pypcd
 
