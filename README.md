@@ -3,6 +3,8 @@ This is an official implementation of RAFDet. We will release our codes as soon 
 
 ## Visualization
 
+KITTI Val
 <p align="center"> <img src="docs/imgs/KITTI_Val_Visualization.png" width="100%"> </p>
 
+KITTI Test
 <p align="center"> <img src="docs/imgs/KITTI_Test_Visualization.png" width="100%"> </p>
