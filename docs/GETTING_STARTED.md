@@ -33,7 +33,9 @@ python -m pcdet.datasets.kitti.kitti_dataset create_kitti_infos tools/cfgs/datas
 * Please first Install pypcd
 
 git clone https://github.com/klintan/pypcd.git
+
 cd pypcd
+
 python setup.py install
 
 Then prepare the dataset according to (https://github.com/ADLab-AutoDrive/BEVHeight/blob/main/docs/prepare_dataset.md)
