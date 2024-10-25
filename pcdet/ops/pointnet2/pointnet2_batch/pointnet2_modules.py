@@ -687,7 +687,10 @@ class PointnetSAModuleMSG_WithSampling(_PointnetSAModuleBase):
 
                 if self.trans_enable:
                     position_encoding = self.position_aware[i](group_xyz)
-                    input_features = group_features + position_encoding
+                    if npoint==16384:
+                        input_features = torch.mean(group_features, dim=1, keepdim=True) + position_encoding
+                    else:
+                        input_features = group_features + position_encoding
                     B, D, np, ns = input_features.shape
                     input_features = input_features.permute(0,2,1,3).reshape(-1,D,ns).permute(2,0,1)
                     attended_features = self.transformer_local[i](input_features).permute(1,2,0).reshape(B,np,D,ns).transpose(1,2)
