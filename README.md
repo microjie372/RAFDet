@@ -17,6 +17,7 @@ KITTI Test
 <p align="center"> <img src="docs/imgs/KITTI_Test_Visualization.png" width="100%"> </p>
 
 ## Citation
+```bibtex
 @ARTICLE{10856371,
   author={Zheng, Zhijie and Huang, Zhicong and Zhao, Jingwen and Lin, Kang and Hu, Haifeng and Chen, Dihu},
   journal={IEEE Transactions on Multimedia}, 
