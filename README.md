@@ -17,6 +17,7 @@ KITTI Test
 <p align="center"> <img src="docs/imgs/KITTI_Test_Visualization.png" width="100%"> </p>
 
 ## Citation
+If you find our work useful, please cite:
 ```bibtex
 @ARTICLE{10856371,
   author={Zheng, Zhijie and Huang, Zhicong and Zhao, Jingwen and Lin, Kang and Hu, Haifeng and Chen, Dihu},
@@ -29,4 +30,17 @@ KITTI Test
   keywords={Feature extraction;Point cloud compression;Three-dimensional displays;Object detection;Laser radar;Convolution;Transformers;Semantics;Robustness;Representation learning;3D object detection;LiDAR;range view fusion;transformer},
   doi={10.1109/TMM.2025.3535289}
   }
+
+@ARTICLE{10144609,
+  author={Zheng, Zhijie and Huang, Zhicong and Zhao, Jingwen and Hu, Haifeng and Chen, Dihu},
+  journal={IEEE Signal Processing Letters}, 
+  title={DTSSD: Dual-Channel Transformer-Based Network for Point-Based 3D Object Detection}, 
+  year={2023},
+  volume={30},
+  number={},
+  pages={798-802},
+  keywords={Feature extraction;Transformers;Three-dimensional displays;Object detection;Point cloud compression;Estimation;Encoding;3D object detection;attention;center estimation;point density;transformer},
+  doi={10.1109/LSP.2023.3283468}
+}
+
 
