@@ -15,3 +15,17 @@ KITTI Val
 
 KITTI Test
 <p align="center"> <img src="docs/imgs/KITTI_Test_Visualization.png" width="100%"> </p>
+
+## Citation
+@ARTICLE{10856371,
+  author={Zheng, Zhijie and Huang, Zhicong and Zhao, Jingwen and Lin, Kang and Hu, Haifeng and Chen, Dihu},
+  journal={IEEE Transactions on Multimedia}, 
+  title={RAFDet: Range View Augmented Fusion Network for Point-Based 3D Object Detection}, 
+  year={2025},
+  volume={27},
+  number={},
+  pages={4167-4180},
+  keywords={Feature extraction;Point cloud compression;Three-dimensional displays;Object detection;Laser radar;Convolution;Transformers;Semantics;Robustness;Representation learning;3D object detection;LiDAR;range view fusion;transformer},
+  doi={10.1109/TMM.2025.3535289}
+  }
+
